@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  veniholdings.com:
+    image: ${DOCKER_REGISTRY}veniholdingscom
+    build:
+      context: .\Veniholdings.com
+      dockerfile: Dockerfile
