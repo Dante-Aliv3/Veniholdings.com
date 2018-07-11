@@ -33,9 +33,20 @@
             padding: 2px;
         }
 
+
+        .container {
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+        }
+
         li.contact.menu-item:hover {
             color: red;
         }
+
+        .nav-collapse .nav > li {
+            display: inline-block;
+        }
+
     </style>
 
 </head>
@@ -51,11 +62,6 @@
                 @Html.ActionLink("Veni Holdings ©", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
