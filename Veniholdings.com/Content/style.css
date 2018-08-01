@@ -626,6 +626,7 @@ h2.contact.menu-item:before {
     content: '04';
 }
 
+
 .menu-block:hover h2.menu-item:before {
     top: -20px;
     left: -40px;
@@ -2142,6 +2143,7 @@ h4.package {
     width: 100%;
 }
 
+
 /*-------------------------------------------------------------------
 
                         10. RESPONSIVE
@@ -2184,6 +2186,7 @@ h4.package {
         left: 1386px;
         top: 138px;
     }
+
     .name-block.reverse {
         width: 400px;
         left: 300px;
@@ -2462,6 +2465,7 @@ h4.package {
         transform: rotate(0deg);
         padding: 0 0 0 0;
     }
+
     h2.menu-item {
         line-height: 3em;
         margin-bottom: 0;
